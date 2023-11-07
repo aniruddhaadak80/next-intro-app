@@ -1,4 +1,4 @@
-export default function pic_of_cat(){
+export default function Pic_of_cat(){
     return(
 <>
 

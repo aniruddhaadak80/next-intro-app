@@ -1,7 +1,7 @@
 // you can use "page.tsx or page.jsx " as per your choice .
 // It will show the esults same 
 
-export default function blog(){
+export default function Blog(){
     return (
        <>
 
