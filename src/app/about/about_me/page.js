@@ -1,4 +1,5 @@
-import Page_links from "../links/page";
+import Link from "next/link";
+import Page_links from "../../links/page";
 
 export default function About_me() {
   return (

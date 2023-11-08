@@ -8,7 +8,7 @@ export default function Page_links(){
     <br/>
     <Link href="/blog">My Blog Page</Link> <br/>
     <br/>
-    <Link href="/about_me">About Me </Link> <br/>
+    <Link href="/about">About Everything </Link> <br/>
     <br/>
     <Link href="/login">Login pagee</Link> <br/>
     <br/>
