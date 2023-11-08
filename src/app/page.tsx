@@ -1,3 +1,6 @@
+import Link from "next/link"
+ import Page_links from "./links/page"
+
 export default function Home() {
   return (
     // fragement as per react 
@@ -9,6 +12,11 @@ export default function Home() {
 <br/>
 
    <mark>Next js</mark> : <h2>I am fine bro .... </h2>
+ 
+ {/* Links to move all pages */}
+   <Page_links/>
+ 
+
 
 </center>
   </>

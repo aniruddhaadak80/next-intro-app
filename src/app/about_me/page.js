@@ -1,3 +1,5 @@
+import Page_links from "../links/page";
+
 export default function About_me() {
   return (
     <>
@@ -15,6 +17,11 @@ export default function About_me() {
       <Friend name="Lalu" count="2nd" />
       <Friend name="Ani" count="3rd" love="I 💜 You" />
       <Friend name='Halua' count='4th'/>
+
+      {/* links of pages to move from one to another   */}
+      <Page_links/>
+   
+
     </>
   );
 }
@@ -30,6 +37,10 @@ const Friend = (props) => { //you have to pass the "props" parameter or anything
 
       {/* this is for my love  */}
       <h3>{props.love}</h3>
+
+
+
+
     </>
   );
 };
