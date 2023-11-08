@@ -12,7 +12,7 @@ export default function Page_links(){
     <br/>
     <Link href="/about">About Everything </Link> <br/>
     <br/>
-    <Link href="/login">Login pagee</Link> <br/>
+    <Link href="/login">Login page</Link> <br/>
     <br/>
     <Link href="/pictures">Pictures</Link> <br/>
     <br/>

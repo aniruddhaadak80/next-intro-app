@@ -38,10 +38,7 @@ const Friend = (props) => { //you have to pass the "props" parameter or anything
 
       {/* this is for my love  */}
       <h3>{props.love}</h3>
-
-
-
-
-    </>
+      
+     </>
   );
 };
