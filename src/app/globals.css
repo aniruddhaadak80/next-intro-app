@@ -4,7 +4,6 @@
 
  }
 
-
 h1{
     color: red;
  }
@@ -19,13 +18,17 @@ h3{
     color: chartreuse;
  }
 
+ p{
+    color:blue;
+ }
+
 div{
     height:auto;
   width: auto;
     border: 6px solid red;
     border-radius:15px;
     padding: 5px;
-    margin:4px;
+    margin:10px;
     
  
 }

@@ -1,6 +1,5 @@
  "use client"
- import Link from "next/link";
- import Page_links from "@/app/links/page";
+ 
 
 
 export default function Student_name({params}) {
@@ -10,9 +9,7 @@ export default function Student_name({params}) {
 
 <h3>Name : {params.student}</h3>
 
-
-{/* links of pages to move from one to another   */}
-<Page_links/>
+ 
  
     </>
   );

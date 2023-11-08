@@ -22,9 +22,9 @@ export default function Page_links(){
     <br/>
     <Link href="/links">All Links</Link> <br/>
     <br/>
+    <Link href="/study">Study</Link> <br/>
+    <br/>
+   
 </div>
-
-
-
-        </>   
+     </>   
 )}

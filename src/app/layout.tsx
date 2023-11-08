@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
+import Page_links from './links/page'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -22,8 +23,12 @@ export default function RootLayout({
         <link rel='icon' href='/favicon.jpg'/>
       </head>
 
-      <body>{children}</body>
+      <body>{children}
 
+        {/* Links to jump one page to another */}
+        <Page_links/>
+        {/* you can find the component i.e the "Page_links" functional component in "page.jsx" link folder  */}
+</body>
     </html>
     
     </>

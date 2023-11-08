@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Page_links from "../links/page";
+ 
 
 export default function Students() {
   return (
@@ -23,9 +23,7 @@ export default function Students() {
           <Link href="students/Halum">Halum</Link>
         </li>
       </ul>
-
-      {/* links of pages to move from one to another   */}
-      <Page_links />
+ 
     </>
   );
 }
