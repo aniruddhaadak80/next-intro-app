@@ -1,4 +1,10 @@
- 
+ *{
+    padding:3px;
+    margin: 5px;
+
+ }
+
+
 h1{
     color: red;
  }
@@ -8,10 +14,15 @@ h2{
     color: aqua;
  }
 
+
+h3{
+    color: chartreuse;
+ }
+
 div{
     height:auto;
   width: auto;
-    border: 2px solid red;
+    border: 6px solid red;
     border-radius:15px;
     padding: 5px;
     margin:4px;
@@ -28,7 +39,7 @@ a{
 }
 
 a:hover{
-    color: purple;
+    color: rgb(255, 0, 255);
     background-color: blue;
 }
 
