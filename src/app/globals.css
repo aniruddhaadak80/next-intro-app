@@ -1,0 +1,45 @@
+ h1{
+    color: red;
+ }
+
+ h2{
+    color: aqua;
+ }
+
+div{
+    height:auto;
+  width: auto;
+    border: 2px solid red;
+    border-radius:15px;
+    padding: 5px;
+    margin:4px;
+ 
+}
+
+/* Link  is selected using "a" tag */
+a{
+    color: rgb(78, 158, 21);
+    margin:4px;
+    padding: 4px;
+    font-size: 18px;
+}
+
+a:hover{
+    color: purple;
+    background-color: blue;
+}
+
+/* style of button  */
+button{
+    color: greenyellow;
+    height: 40px;
+    width: 200px;
+    background-color: #29b810;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 0.3em;
+}
+
+button:hover{
+    background-color: rgb(22, 32, 138);
+}

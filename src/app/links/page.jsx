@@ -3,6 +3,8 @@ import Link from "next/link"
 export default function Page_links(){
     return(
         <>
+
+        <div>
 <h2>Link to all Routes : 👇👇👇</h2>
     <Link href="/">Home page</Link> <br/>
     <br/>
@@ -20,7 +22,7 @@ export default function Page_links(){
     <br/>
     <Link href="/links">All Links</Link> <br/>
     <br/>
-
+</div>
 
 
 
