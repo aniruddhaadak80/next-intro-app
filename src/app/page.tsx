@@ -8,9 +8,9 @@ export default function Home() {
     <>
       <center>
         <br />
-        <mark>Me </mark> : <h1>Hello next js , how are you ?</h1>
+       <h3>Me :</h3> <h1>Hello next js , how are you ?</h1>
         <br />
-        <mark>Next js</mark> : <h2>I am fine bro .... </h2>
+        <h3>Next js :</h3> <h2>I am fine bro .... </h2>
       </center>
     </>
   );
